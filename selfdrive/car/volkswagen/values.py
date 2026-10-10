@@ -130,6 +130,7 @@ class CAR(StrEnum):
   POLO_MK6 = "VOLKSWAGEN POLO 6TH GEN"              # Chassis AW, Mk6 VW Polo
   SHARAN_MK2 = "VOLKSWAGEN SHARAN 2ND GEN"          # Chassis 7N, Mk2 Volkswagen Sharan and SEAT Alhambra
   TAOS_MK1 = "VOLKSWAGEN TAOS 1ST GEN"              # Chassis B2, Mk1 VW Taos and Tharu
+  THARU_MK1 = "VOLKSWAGEN THARU 1ST GEN"            # Chassis B2, VW Tharu (China/India), shares Tiguan MQB CAN
   TCROSS_MK1 = "VOLKSWAGEN T-CROSS 1ST GEN"         # Chassis C1, Mk1 VW T-Cross SWB and LWB variants
   TIGUAN_MK2 = "VOLKSWAGEN TIGUAN 2ND GEN"          # Chassis AD/BW, Mk2 VW Tiguan and variants
   TOURAN_MK2 = "VOLKSWAGEN TOURAN 2ND GEN"          # Chassis 1T, Mk2 VW Touran and variants
@@ -242,6 +243,7 @@ CAR_INFO: Dict[str, Union[VWCarInfo, List[VWCarInfo]]] = {
     VWCarInfo("SEAT Alhambra 2018-20"),
   ],
   CAR.TAOS_MK1: VWCarInfo("Volkswagen Taos 2022-23"),
+  CAR.THARU_MK1: VWCarInfo("Volkswagen Tharu 2019-24"),
   CAR.TCROSS_MK1: VWCarInfo("Volkswagen T-Cross 2021", footnotes=[Footnote.VW_MQB_A0]),
   CAR.TIGUAN_MK2: [
     VWCarInfo("Volkswagen Tiguan 2018-24"),

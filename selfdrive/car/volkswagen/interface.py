@@ -159,6 +159,10 @@ class CarInterface(CarInterfaceBase):
       ret.mass = 1715
       ret.wheelbase = 2.74
 
+    elif candidate == CAR.THARU_MK1:
+      ret.mass = 1715
+      ret.wheelbase = 2.74
+
     elif candidate == CAR.TOURAN_MK2:
       ret.mass = 1516
       ret.wheelbase = 2.79
